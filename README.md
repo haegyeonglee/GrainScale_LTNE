@@ -4,7 +4,7 @@
 
 This repository accompanies the manuscript:
 
-Lee, H., Gebhardt, H., Blum, P., Bayer, P., Rau, G.C. (202X): Numerical analysis of local thermal non-equilibrium experiments reveals conceptual regimes of grain-scale heat transport
+Lee, H., Gebhardt, H., Blum, P., Bayer, P., Rau, G. C. (2025). Numerical analysis of local thermal non‐equilibrium experiments reveals conceptual regimes of grain‐scale heat transport. Water Resources Research, 61, e2025WR041260.
 
 The repository provides scripts to perform transient heat transport simulation at the granular scale in 2D porous media using the Multiphysics Object-Oriented Simulation Environment ([MOOSE](https://mooseframework.inl.gov/)), an open-source, parallel finite element framework for numerical modelling (Harbour et al., 2025). The heat transport model is created using the MOOSE library [PorousFlow](https://mooseframework.inl.gov/modules/porous_flow/index.html) (Wilkins et al., 2021) and [HeatTransfer](https://mooseframework.inl.gov/modules/heat_transfer/index.html), which enable the simulation of flow in porous media and heat conduction within the solid grain and coupling them. This repository further provides routines to produce thermal breakthrough curves and temperature difference between the fluid and solid phases (i.e., LTNE effects at the grain-scale).
 
